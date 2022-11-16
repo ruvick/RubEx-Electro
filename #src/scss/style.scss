@@ -295,6 +295,31 @@ h4 {
 	border: 1px solid #707070;
 }
 
+.descpBlock__form-options {
+	margin-bottom: 22px;
+}
+
+.descpBlock__form-options .options__item {
+	margin-bottom: 14px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.descpBlock__form-inputBlock {
+	max-width: 340px;
+	width: 100%;
+}
+
+.descpBlock__form-inputBlock-input {
+	margin-bottom: 11px;
+}
+
+.descpBlock__form-inputBlock-btn {
+	margin-top: 10px;
+}
+
 //========================================================================================================================================================
 
 

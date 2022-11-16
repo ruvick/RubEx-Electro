@@ -421,36 +421,36 @@ input::-webkit-inner-spin-button {
 		display: inline-flex;
 		align-items: center;
 		position: relative;
-		font-size: 16px;
-		color: #ffffff;
+		font-size: 14px;
+		// color: #ffffff;
 		letter-spacing: -0.3px;
 		line-height: calc(20 / 16);
 
 		&:before {
 			content: "";
 			align-self: flex-start;
-			margin: 0px 14px 0px 0px;
-			flex: 0 0 20px;
 			left: 0;
 			top: 0;
 			border-radius: 50%;
-			width: 20px;
-			height: 18px;
+			flex: 0 0 15px;
+			width: 15px;
+			height: 15px;
+			margin: 0px 9px 0px 0px;
 			background: #fff;
-			border: 1px solid #a7a9ac;
+			border: 1px solid #707070;
 		}
 
 		&:after {
 			content: "";
 			transition: all 0.3s ease 0s;
 			transform: scale(0);
-			width: 10px;
-			height: 10px;
+			width: 15px;
+			height: 15px;
 			border-radius: 50%;
-			background-color: #77243a;
+			background-color: #C4041C;
 			position: absolute;
-			left: 5px;
-			top: 4px;
+			left: 0;
+			top: 0;
 		}
 	}
 }
